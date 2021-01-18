@@ -58,5 +58,6 @@ java_defaults {
     static_libs: [
         "VendorSupport-preference",
         "SystemUISharedLib",
+        "vendor.lineage.fastcharge-V1.0-java",
     ],
 }
