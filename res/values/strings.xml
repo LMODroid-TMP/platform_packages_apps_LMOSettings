@@ -683,4 +683,11 @@
     <!-- QS Transparency -->
     <string name="qs_transparency_title">Background transparency</string>
     <string name="qs_transparency_summary">Set transparency level for QS background</string>
+
+    <!-- Prevent pointer accleration -->
+    <string name="prevent_pointer_acceleration_title">Pointer acceleration</string>
+    <string name="prevent_pointer_acceleration_full">Full (Pointer + Wheel)</string>
+    <string name="prevent_pointer_acceleration_wheel">Wheel only</string>
+    <string name="prevent_pointer_acceleration_pointer">Pointer only</string>
+    <string name="prevent_pointer_acceleration_none">None</string>
 </resources>
