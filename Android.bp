@@ -45,9 +45,12 @@ filegroup {
 java_defaults {
     name: "LMOSettings-defaults",
 
-    srcs: [":LMOSettings-sources"],
-    resource_zips: [":LMOSettings-res"],
     additional_manifests: [":LMOSettings-manifest"],
+    srcs: [":LMOSettings-sources"],
+    resource_zips: [
+        ":LMOSettings-res",
+        ":TouchGestures-res",
+    ],
 
     libs: [
         "framework-lmodroid",
